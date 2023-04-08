@@ -1,0 +1,108 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family:'poppins',sans-serif;
+}
+.section{
+    background-image: url('img/IMG_2386.jpg');
+    background-repeat: repeat-y;
+    background-size: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+    min-height: 100vh;
+    min-width: 100vh;
+}
+.loginbox{
+    padding: 1%;
+    border: 2px solid rgb(255, 248, 248);
+    backdrop-filter: blur(5px);
+    background-color: rgba(0, 0, 0, 0.11);
+    border-radius: 10px;
+    position: relative;
+    display: flex;
+    height: 70vh;
+    width: 70vh;
+    justify-content: center;
+
+}
+.inputbox input{
+    background: transparent;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    border-color: antiquewhite;
+    outline: none;
+    font-size: 0.9em;
+    color: rgb(255, 255, 255);
+    font-weight: lighter ;
+    display: flexbox;
+    justify-content: baseline;
+}
+.inputbox2 input{
+    background: transparent;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    border-color: antiquewhite;
+    outline: none;
+    font-size: 0.9em;
+    color: rgb(255, 255, 255);
+    font-weight: lighter ;
+    display: flexbox;
+    justify-content: baseline;
+}
+
+.inputbox{
+    color: #ffffff;
+    position: relative;
+    margin-top: 4vh;
+}
+.inputbox2{
+    color: #ffffff;
+    border-bottom: #ffffff;
+    position: relative;
+    margin-top: 10vh;
+}
+.Remember{
+    color: #ffffff;
+    margin-top: 5vh;
+}
+checkbox{
+    color: #ffffff;
+    margin-top: 6vh;
+}
+h2{
+ padding-top: 20px;
+ padding-bottom: 30px;
+ text-align: center;
+ color: aliceblue;
+}
+.buttons{
+    margin-top: 8vh;
+    margin-left: 35px;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    justify-content: center;
+}
+.button h3{
+    color: rgb(0, 0, 0);
+}
+
+.button{
+    height: 30px;
+    width: 200px;
+    align-items: center;
+    border-radius: 20px;
+    border-radius: 20px;
+    background: linear-gradient(145deg, #ffffff9c, #00000062);
+    box-shadow:  -28px -28px 56px #3838384d, 28px 28px 56px #0f0f0f56;
+}
+.buttons  :hover{
+    transition: 90ms;
+border-radius: 20px;
+border-radius: 20px;
+background: linear-gradient(145deg, #d0d0d0, #afafaf);
+box-shadow:  8px 8px 56px #b1b1b1, -8px -8px 56px #d3d3d3;
+}
